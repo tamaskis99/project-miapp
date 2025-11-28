@@ -34,21 +34,20 @@ Az MI részért a `KTJChatEngine` osztály felel.
 ---
 
 ## 📁 Fájlstruktúra
-project-miapp/
-│
-├── main.py # Főprogram – Tkinter GUI indítása
-├── ktj_chat_engine.py # KTJ monogramos MI-motor modul
-├── web_tools.py # Internetes keresőmodul
-├── config.json # API kulcs (NINCS GitHub-ra feltöltve)
-├── logs/ # Automatikusan generált chatnaplók
-│
-├── apps/
-│ ├── ktj_costs.py # Költség elemző mini app
-│ ├── ktj_notes.py # Jegyzetelő mini app
-│ ├── ktj_timer.py # Időzítő mini app
-│ └── ktj_calendar.py # Naptár mini app
-│
-└── README.md
+project-miapp->
+- main.py # Főprogram – Tkinter GUI indítása
+- ktj_chat_engine.py # KTJ monogramos MI-motor modul
+- web_tools.py # Internetes keresőmodul
+- config.json # API kulcs 
+- logs #Chat-napló
+
+- apps
+-- ktj_costs.py # Költség elemző mini app
+-- ktj_notes.py # Jegyzetelő mini app
+-- ktj_timer.py # Időzítő mini app
+-- ktj_calendar.py # Naptár mini app
+
+- README.md
 
 ---
 
