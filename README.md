@@ -32,23 +32,24 @@ A beszélgetés teljes kontextusa (system prompt + korábbi 10 üzenet) átadás
 Az MI részért a `KTJChatEngine` osztály felel.
 
 ---
-
 ## 📁 Fájlstruktúra
-project-miapp->
-- main.py # Főprogram – Tkinter GUI indítása
-- ktj_chat_engine.py # KTJ monogramos MI-motor modul
-- web_tools.py # Internetes keresőmodul
-- config.json # API kulcs 
-- logs #Chat-napló
-
-- apps
--- ktj_costs.py # Költség elemző mini app
--- ktj_notes.py # Jegyzetelő mini app
--- ktj_timer.py # Időzítő mini app
--- ktj_calendar.py # Naptár mini app
-
-- README.md
-
+```
+project-miapp/
+│
+├── main.py # Főprogram – Tkinter GUI indítása
+├── ktj_chat_engine.py # KTJ monogramos MI-motor modul
+├── web_tools.py # Internetes keresőmodul
+├── config.json # API kulcs (NINCS GitHub-ra feltöltve)
+├── logs/ # Automatikusan generált chatnaplók
+│
+├── apps/
+│ ├── ktj_costs.py # Költség elemző mini app
+│ ├── ktj_notes.py # Jegyzetelő mini app
+│ ├── ktj_timer.py # Időzítő mini app
+│ └── ktj_calendar.py # Naptár mini app
+│
+└── README.md
+```
 ---
 
 ## 🧩 Modulok és funkciók (a tantárgyi követelmények szerint)
@@ -61,7 +62,7 @@ project-miapp->
 - `requests`
 
 ### ✔ Bemutatandó modul
-- `openai` (OpenRouter API használata)
+- `openai` (Az OpenAI által létrehozott OpenRouter API használata)
 
 ### ✔ Saját modul
 - `ktj_chat_engine.py`  
@@ -89,7 +90,8 @@ A `web_tools.py` modulokból:
 3. Angol Wikipédia (fallback)
 
 A text + URL visszakerül a chatmotorba, amely ezt hozzáadja a modell kontextusához.
-Fontos kihangsúlyozni, hogy ezt a módszert csak akkor használja, ha MI-modell nem elérhető valamiért.
+
+### Fontos kihangsúlyozni, hogy ezt a módszert csak akkor használja, ha MI-modell nem elérhető valamiért.
 
 ---
 
