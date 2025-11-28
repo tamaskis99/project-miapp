@@ -39,8 +39,8 @@ project-miapp/
 ├── main.py # Főprogram – Tkinter GUI indítása
 ├── ktj_chat_engine.py # KTJ monogramos MI-motor modul
 ├── web_tools.py # Internetes keresőmodul
-├── config.json # API kulcs (NINCS GitHub-ra feltöltve)
-├── logs/ # Automatikusan generált chatnaplók
+├── config.json # API kulcs helye (`Email-ben továbbítva`)
+├── logs/ # Chat-naplózás
 │
 ├── apps/
 │ ├── ktj_costs.py # Költség elemző mini app
