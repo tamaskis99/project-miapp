@@ -31,7 +31,7 @@ class ChatGUI:
         self.chat_box.tag_config("link", foreground="blue", underline=True)
         self.chat_box.tag_bind("link", "<Button-1>", self.on_link_click)
 
-        self._append_text("assistant", "Szia, jelenleg én még egy tanuló fázisban lévő mini MI-modell vagyok, sajnos még nem rendelkezem hivatalos API-val (pl. OpenAI API), hogy minden elvárásodnak megfeleljek, de ígérem, igyekezni fogok kielégítő választ adni kérdéseidre. Esetleg további alkalmazásokat tudok mutatni, ha beírod a 'további alkalmazások' üzenetet.")
+        self._append_text("assistant", "Szia! Jelenleg én még egy tanuló fázisban lévő mini MI-modell vagyok. Ígérem, igyekezni fogok kielégítő választ adni kérdéseidre. Esetleg további alkalmazásokat tudok mutatni, ha beírod a 'további alkalmazások' üzenetet.")
 
     def _append_text(self, role, text):
         self.chat_box.config(state=tk.NORMAL)
