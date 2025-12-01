@@ -10,7 +10,7 @@ FONTOS! A SZÓKÖZÖKET TÁVOLÍTSUK EL!
 
 ---
 
-## 🎯 Projekt rövid leírása
+## Projekt rövid leírása
 
 A projekt célja egy olyan komplex Python alkalmazás létrehozása, amely:
 
@@ -26,14 +26,14 @@ Az alkalmazás teljes mértékben Python 3 kompatibilis, külső könyvtárak mi
 
 ---
 
-## 🧠 Mesterséges intelligencia működése
+## Mesterséges intelligencia működése
 
 A rendszer az **OpenRouter API** használja és hív meg ingyenesen elérhető modelleket:
 
 - `meta-llama/llama-3.1-8b-instruct:free`
 - `mistralai/mistral-7b-instruct:free`
 
-A beszélgetés teljes kontextusa (system prompt + korábbi 10 üzenet) átadásra kerül a modellnek, valamint opcionálisan webes információ is bekerülhet, ha a felhasználó keresést kezdeményez.
+A beszélgetés teljes kontextusa (system prompt + korábbi 10 üzenet) átadásra kerül a MI-modellnek, valamint opcionálisan webes információ is bekerülhet, ha a felhasználó keresést kezdeményez.
 
 Az MI részért a `KTJChatEngine` osztály felel.
 
@@ -60,34 +60,34 @@ project-miapp/
 
 ## 🧩 Modulok és funkciók (a tantárgyi követelmények szerint)
 
-### ✔ Tanult modulok
+### Tanult modulok
 - `tkinter`
 - `json`
 - `os`
 - `datetime`
 - `requests`
 
-### ✔ Bemutatandó modul
+### Bemutatandó modul
 - `openai` (Az OpenAI által létrehozott OpenRouter API használata)
 
-### ✔ Saját modul
+### Saját modul
 - `ktj_chat_engine.py`  
   - KTJ monogrammal ellátott fejlesztés
 
-### ✔ Saját osztály:  
+### Saját osztály:  
 - `KTJChatEngine`  
   – a teljes MI működésért, memóriakezelésért és webes keresések integrálásáért felel
 
-### ✔ Saját függvény:
+### Saját függvény:
 - `ktj_export_history()`  
   – KTJ monogramos beszélgetés-exportáló
 
-### ✔ Grafikai modul és eseménykezelés
+### Grafikai modul és eseménykezelés
 - Tkinter gombok, beviteli mezők, új ablak megnyitása (mini appok)
 
 ---
 
-## 🔍 Internetes keresés működése
+## Internetes keresés működése
 
 A `web_tools.py` modulokból:
 
@@ -101,7 +101,7 @@ A text + URL visszakerül a chatmotorba, amely ezt hozzáadja a modell kontextus
 
 ---
 
-## 📦 Telepítés és futtatás
+## Telepítés és futtatás
 
 ### 1. Szükséges csomagok telepítése:
 ```
