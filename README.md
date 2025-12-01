@@ -5,7 +5,7 @@
 ---
 
 A `config.json` fájlban az "API KULCS HELYE" (2. sor a programban) részre a két idézőjel közé be kell másolni az API kulcsot, amely a következő: 
-- `sk-or-v1-ec660c c27e628da27643106 1efd3141f35109a0a7fdf dd920409eeafc0b95a1a`
+- `sk-or-v1-c9ccab9a4c e8a4cc51fdcc7d015b6 a25d88c605176f4b76 298e0426bdd1019ec`
 FONTOS! A SZÓKÖZÖKET TÁVOLÍTSUK EL!
 
 ---
