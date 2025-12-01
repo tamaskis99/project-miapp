@@ -4,6 +4,11 @@
 
 ---
 
+A `config.json` fájlban az "API KULCS HELYE" (2. sor a programban) részre a két idézőjel közé be kell másolni az API kulcsot, amely a következő: 
+- `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`
+
+---
+
 ## 🎯 Projekt rövid leírása
 
 A projekt célja egy olyan komplex Python alkalmazás létrehozása, amely:
